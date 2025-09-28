@@ -1,4 +1,4 @@
-/*WaveRiders Account Creation*/
+/* WaveRiders Account Creation */
 /* BASE STYLE */
 * {
     box-sizing: border-box;
@@ -10,14 +10,113 @@ body {
     height: 100%;
     width: 100%;
 }
+h1, h2, strong, em, p {
+    color: #000000;
+}
+p {
+    font-size: 16px;
+}
+label {
+    color: #000000;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+/* ACCOUNT */
+h1 {
+    font-size: 2.25em;
+    padding: 0 0 0 1%;
+}
+.country form, .birth form, .name form, .colour form, .email form, .password form, .impress form, button {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.name input, .colour input, .email input, .password input, .impress input {
+    font-size: 20px;
+}
+.country select, .birth select {
+    font-size: 24px;
+    height: 40px;
+    text-align: center;
+}
+/* LOGIN */
+#login {
+    margin: 20% 0 0 0;
+}
+ #login h1 {
+     font-size: 3.125em;
+     margin: 0;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ #login .user form {
+     font-size: 1.5em;
+     margin: 0;
+     text-align: center;
+     text-transform: uppercase;
+ }
+ #login .user input {
+     height: 1.5em;
+     width: 38%;
+ }
+ #login button {
+     font-size: 1.5em;
+     margin-left: 32%;
+     width: 35%;
+     text-transform: uppercase;
+ }
+/* HOMEPAGE */
+/* GAME */
+.torso {
+    background: #000;
+    height: 20%;
+    left: 40%;
+    position: absolute;
+    top: 30%;
+    width: 22%;
+}
+.shoulders {
+    background: #000;
+    border-radius: 50%;
+    height: 100%;
+    left: 80%;
+    position: absolute;
+    width: 40%;
+}
+.hindquarters {
+    background: #000;
+    border-radius: 50%;
+    height: 100%;
+    left: -25%;
+    position: absolute;
+    width: 50%;
+}
+.leg-left-fore {
+    background: #000;
+    height: 150%;
+    left: -25%;
+    position: absolute;
+    top: 50%;   
+    width: 20%;
+}
+.leg-right-fore {
+
+}
+.leg-left-hind {
+
+}
+.leg-right-hind {
+
+}
+/* HORSE */
 .box {
     background: none;
     border: 1px solid #fff;
     display: block;
-    height: 1150px;
+    height: 2000px;
     margin: auto;
     position: relative;
-    width: 1000px;
+    width: 2000px;
 }
 /* CSS Jumping Horse */
 /* head: muzzle (circle), (ears: )
@@ -84,64 +183,6 @@ wing-right: */
     width: 40%;
     z-index: 1;
 }
-h1, h2, strong, em, p {
-    color: #000000;
-}
-p {
-    font-size: 16px;
-}
-label {
-    color: #000000;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-/* INFO */
-#info h1 {
-    font-size: 2.25em;
-    text-align: center;
-}
-#info .country form, #info .birth form, #info .name form, #info .colour form, #info .email form, #info .password form, #info .impress form, #info button {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    text-align: center;
-}
-#info .name input, #info .colour input, #info .email input, #info .password input, #info .impress input {
-    font-size: 20px;
-}
-#info .country select, #info .birth select {
-    font-size: 24px;
-    height: 40px;
-    text-align: center;
-}
-/* LOGIN */
-#login {
-    margin: 20% 0 0 0;
-}
- #login h1 {
-     font-size: 3.125em;
-     margin: 0;
-     text-align: center;
-     text-transform: uppercase;
- }
- #login .user form {
-     font-size: 1.5em;
-     margin: 0;
-     text-align: center;
-     text-transform: uppercase;
- }
- #login .user input {
-     height: 1.5em;
-     width: 38%;
- }
- #login button {
-     font-size: 1.5em;
-     margin-left: 32%;
-     width: 35%;
-     text-transform: uppercase;
- }
-/* HOMEPAGE */
-/* GAME */
 #canvas {
 
 }
